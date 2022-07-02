@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header section start here */
+header{
+    height: 100vh;
+    background-image: url(images/header-bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-l{
+    margin-top: 10em;
+    width: 40%;
+    margin-left: 4em;
+    padding: 25px;
+}
+.header-l h4{
+    font-size: 30px;
+    padding: 15px 0;
+}
+.header-l h3{
+    font-size: 40px;
+    color: #EC4F8F;
+    padding-bottom: 15px;
+}
+.header-l p {
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+.header-l button {
+    border: none;
+    padding: 10px 25px;
+    background-color: #EC4F8F;
+    color: white;
+    border-radius: 5px;
+}
+.header-r{
+    width: 40%;
+    padding-top: 5em;
+}
+.header-r img{
+    width: 80%;
+}
+/* header section end here */
+
+/* biography section start here */
+.section{
+    height: 100vh;
+    background-image: url(images/biography-bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* biography section end here */
+
+/* mid section start here */
+.mid{
+    width: 100%;
+    margin-top: 5em;
+    background-image: url(images/latest-work-bg.png);
+    background-size: cover;
+    margin-bottom: 10em;
+}
+.mid h4{
+    font-size: 2.1rem;
+    text-align: center;
+    padding: 25px;
+}
+.mid-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.box{
+    width: 30%;
+}
+.box img{
+    width: 100%;
+}
+/* mid section end here */
+
+/* footer section start here */
+.client{
+    width: 100%;
+    text-align: center;
+    background-image: url(images/footer-bg.png);
+    background-size: cover;
+    height: 100vh;
+}
+.client h2{
+    font-size: 2rem;
+    padding: 45px;
+    margin-bottom: 40px;
+}
+.client h4{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.client h6{
+    color: #706f6f;
+    font-size: .8rem;
+    margin-bottom: 50px;
+}
+.client p{
+    font-size: 1.3rem;
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 5em;
+}
+.client-box{
+    border-radius: 5px;
+    background-image: linear-gradient( 45deg, rgb(221, 51, 209), tomato);
+    width: 40%;
+    margin: 0 auto;
+    color: white;
+}
+.client-box h4{
+    font-size: 15px;
+    padding-top: 25px;
+}
+.client-box h2{
+    font-size: 25px;
+}
+footer p{
+    font-size: 15px;
+    text-align: center;
+    padding: 25px;
+}
+/* footer section start here */
